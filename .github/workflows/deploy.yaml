@@ -25,8 +25,7 @@ jobs:
       run: npm run build  # Adjust the build script according to your project setup
 
     - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@4.2.0
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages  # Change this to your target branch for GitHub Pages
-        FOLDER: dist  # Change this to the build output directory
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: dist # Change this to the build output directory

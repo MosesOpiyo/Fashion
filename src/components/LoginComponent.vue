@@ -22,6 +22,7 @@ export default {
 <style>
 .container{
     padding-top: 50px;
+    background-color: white;
 }
 .register-texts{
     color: white;

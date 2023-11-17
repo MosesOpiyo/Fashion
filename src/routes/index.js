@@ -5,7 +5,7 @@ import ProductsComponent from "../components/ProductsComponent.vue"
 
 const routes = [
     {
-        path:'',
+        path:'/Login',
         name:'Login',
         component: LoginComponent
     },
@@ -15,7 +15,7 @@ const routes = [
         component: SignUpComponent
     },
     {
-        path:'/Home',
+        path:'',
         name:'Home',
         component: ProductsComponent
     }

@@ -1,15 +1,26 @@
 <template>
-    <div class="container">
-            <p>&copy; 2023 Fashion. All rights reserved.</p>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <p>Contact us: <a href="mailto:info@yourstylishwebsite.com">info@fashion.com</a></p>
+    <div id="card-8" style="background-color: black;">
+    <div class="wording-2">
+        <div class="row">
+            <div class="col-lg-2">
+               <button>Fashion</button>
+            </div>
+            <div class="col-lg-2">
+                <i><h4 style="color: rgb(222, 221, 221);padding-bottom: 20px;font-size: 15px;">Shipping & Returns</h4></i>
+                <i><h4 style="color: rgb(222, 221, 221);padding-bottom: 20px;font-size: 15px;">FAQS</h4></i>
+            </div>
+            <div class="col-lg-2" style="padding-left: 50px;">
+                <i><h4 style="color: rgb(222, 221, 221);padding-bottom: 20px;font-size: 15px;">Privacy Policy</h4></i>
+                <i><h4 style="color: rgb(222, 221, 221);padding-bottom: 20px;font-size: 15px;">Terms and Conditions</h4></i>
+            </div>
+            <div class="col-lg-2">
+                <i><h4 style="color: rgb(222, 221, 221);padding-bottom: 20px;font-size: 15px;">Nairobi, Kenya</h4></i>
+                <i><h4 style="color: rgb(222, 221, 221);padding-bottom: 20px;font-size: 15px;">+254123456789</h4></i>
+            </div>
         </div>
+
+    </div>
+</div>
 </template>
 <script>
 export default {
@@ -17,29 +28,20 @@ export default {
 }
 </script>
 <style>
-.container {
-    background-color: black;
-            margin: 0 auto;
-        }
-
-        ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        li {
-            display: inline-block;
-            margin-right: 20px;
-        }
-
-        a {
-            text-decoration: none;
-            color: #fff;
-            font-weight: bold;
-        }
-
-        p {
-            margin: 10px 0;
-        }
+#card-8 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width:100%;
+    border: 0;
+}
+.wording-2{
+    margin-left:10%;
+    padding-top:5pc;
+}
+button {
+    border: 2px solid white;
+    border-radius: 20px;
+    font-style: italic;
+}
 </style>

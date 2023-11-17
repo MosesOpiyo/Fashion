@@ -9,7 +9,6 @@
         </div>
         <div class="more-options">
             <router-link class="link" to="/">Login</router-link>
-            <a href="#">Cart</a>
         </div>
     </nav>
 </template>
@@ -19,10 +18,7 @@ export default {
 }
 </script>
 <style>
-template{
-    padding: 10px;
-}
-nav {   
+nav {  
     height: 60px;
     color: black;
     display: flex;
